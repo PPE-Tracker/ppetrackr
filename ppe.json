@@ -1,0 +1,965 @@
+[
+    {
+        "model": "core.PPEType",
+        "pk": 1,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 2,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 3,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 4,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Medium/Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 5,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 6,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Low Profile"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 7,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Regular"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 8,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "3M",
+        "size": "Other"
+        }
+    },
+
+    {
+        "model": "core.PPEType",
+        "pk": 9,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 10,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 11,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 12,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Medium/Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 13,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 14,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Low Profile"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 15,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Regular"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 16,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Moldex",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 17,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 18,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 19,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 20,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Medium/Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 21,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 22,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Low Profile"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 23,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Regular"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 24,
+        "fields": {
+        "item_type": "n95mask",
+        "item_attribute": "Other",
+        "size": "Other"
+        }
+    },
+    
+    {
+        "model": "core.PPEType",
+        "pk": 25,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Vinyl",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 26,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Vinyl",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 27,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Vinyl",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 28,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Vinyl",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 29,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Vinyl",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 30,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Latex",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 31,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Latex",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 32,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Latex",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 33,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Latex",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 34,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Latex",
+        "size": "Other"
+        }
+    },
+
+
+    {
+        "model": "core.PPEType",
+        "pk": 35,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Nitrole",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 36,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Nitrole",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 37,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Nitrole",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 38,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Nitrole",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 39,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Nitrole",
+        "size": "Other"
+        }
+    },
+
+    {
+        "model": "core.PPEType",
+        "pk": 40,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Other",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 41,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Other",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 42,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Other",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 43,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Other",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 44,
+        "fields": {
+        "item_type": "gloves",
+        "item_attribute": "Other",
+        "size": "Other"
+        }
+    },
+
+    {
+        "model": "core.PPEType",
+        "pk": 45,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "4 fl oz",
+        "size": "70%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 46,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "4 fl oz",
+        "size": "91%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 47,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "4 fl oz",
+        "size": "99%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 48,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "4 fl oz",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 49,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "16 fl oz",
+        "size": "70%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 50,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "16 fl oz",
+        "size": "91%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 51,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "16 fl oz",
+        "size": "99%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 52,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "16 fl oz",
+        "size": "Other"
+        }
+    },
+
+    {
+        "model": "core.PPEType",
+        "pk": 53,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "32 fl oz",
+        "size": "70%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 54,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "32 fl oz",
+        "size": "91%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 55,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "32 fl oz",
+        "size": "99%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 56,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "32 fl oz",
+        "size": "Other"
+        }
+    },
+
+    {
+        "model": "core.PPEType",
+        "pk": 57,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "1 gallon",
+        "size": "70%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 58,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "1 gallon",
+        "size": "91%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 59,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "1 gallon",
+        "size": "99%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 60,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "1 gallon",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 61,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "Other",
+        "size": "70%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 62,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "Other",
+        "size": "91%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 63,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "Other",
+        "size": "99%"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 64,
+        "fields": {
+        "item_type": "alcohol",
+        "item_attribute": "Other",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 65,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 66,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 67,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 68,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 69,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "2XL"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 70,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "3XL"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 71,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "4XL"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 72,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "5XL"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 73,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "6XL"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 74,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "7XL"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 75,
+        "fields": {
+        "item_type": "gowns",
+        "item_attribute": "-",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 76,
+        "fields": {
+        "item_type": "swab",
+        "item_attribute": "-",
+        "size": "-"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 77,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Medline",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 78,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Medline",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 79,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Medline",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 80,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Medline",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 81,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Medline",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 82,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Medline",
+        "size": "Other"
+        }
+    },
+
+    {
+        "model": "core.PPEType",
+        "pk": 83,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Cardinal Health",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 84,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Cardinal Health",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 85,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Cardinal Health",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 86,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Cardinal Health",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 87,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Cardinal Health",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 88,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Cardinal Health",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 89,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "3M",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 90,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "3M",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 91,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "3M",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 92,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "3M",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 93,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "3M",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 94,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "3M",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 95,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Owens & Minor",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 96,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Owens & Minor",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 97,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Owens & Minor",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 98,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Owens & Minor",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 99,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Owens & Minor",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 100,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Owens & Minor",
+        "size": "Other"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 101,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Other",
+        "size": "Extra Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 102,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Other",
+        "size": "Small"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 103,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Other",
+        "size": "Medium"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 104,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Other",
+        "size": "Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 105,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Other",
+        "size": "Extra Large"
+        }
+    },
+    {
+        "model": "core.PPEType",
+        "pk": 106,
+        "fields": {
+        "item_type": "face_mask",
+        "item_attribute": "Other",
+        "size": "Other"
+        }
+    }
+]

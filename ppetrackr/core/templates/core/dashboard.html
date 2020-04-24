@@ -1,0 +1,14 @@
+{% extends "core/base.html" %}
+{% load plotly_dash %}
+
+{% block header %}
+{% plotly_header %}
+{% endblock %}
+
+{% block content %}
+{% plotly_direct name="SimpleExample" %}
+{% endblock %}
+
+{% block script %}
+{% plotly_footer %}
+{% endblock %}

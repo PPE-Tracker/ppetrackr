@@ -1,0 +1,43 @@
+{% extends 'core/base.html' %} 
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2 class="font-weight-bold mb-4">Organization Management</h2>
+      <p class="lead">If you want to connect your user account to a registered organization</p>
+      <a
+        class="btn btn-secondary font-weight-bold"
+        href="{% url 'onboard_connect_view' %}"
+        >Connect using Organization Code</a
+      >
+      <br />
+      <br />
+      <br />
+      <p class="lead">
+        If you want to register your facility and start managing your own PPE inventory (e.g. hospital, healthcare facility)
+      </p>
+      <a
+        class="btn btn-success font-weight-bold"
+        href="{% url 'onboard_new_provider_view' %}"
+        >Register as Provider Organization</a
+      >
+      <br />
+      <br />
+      <br />
+      <p class="lead">
+        If you want to oversee the inventory of multiple facilities (e.g. government body, hospital system)
+      </p>
+      <a
+        class="btn btn-info font-weight-bold mb-4"
+        href="{% url 'onboard_new_parent_view' %}"
+        >Register as Parent Organization</a
+      >
+      <div class="alert alert-warning">Please note you will not be able to
+        input inventory as a Parent Organization. This is only for tracking purposes. If you would like to
+        input inventory, please Register as Provider Organization.
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

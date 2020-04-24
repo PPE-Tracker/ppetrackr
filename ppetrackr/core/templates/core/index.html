@@ -1,0 +1,64 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+<div class="container">
+  <main>
+    <section class="pt-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 my-auto px-0">
+            <h2 class="font-weight-bold banner-title lh-text">Track Personal Protective Equipment (PPE) across critical healthcare infrastructures</h2>
+            <h5 class="my-4 text-muted lh-text banner-subtitle">Using PPETrackr, healthcare facilities can log their daily use of PPE and view different visualizations of their data in the dashboard. This data can also be centralized with other healthcare facilities' data to depict PPE trends across the region. Government leaders can then make efficient and effective decisions about the acquisition, allocation, and conservation of PPE supplies.</h5>
+            <div>
+              {% if request.user.is_authenticated %}
+              <a class="btn btn-lg text-white bg-brand p-3 font-weight-bold banner-button" 
+                 href="{% url 'home_view' %}">Go to Home</a>
+              <p class="text-muted"><small>You are logged in as {{ request.user.get_full_name }}</small></p>
+              {% else %}
+              <a class="btn btn-lg text-white bg-brand p-3 font-weight-bold banner-button" 
+                 href="{% url 'register_view' %}">Sign up to Fight COVID-19</a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 my-auto">
+            <img src="./static/images/banner.png" alt="doctors" class="img-fluid banner-image  mt-0-sm mt-5">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-0" id="documentation">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 order-lg-1 order-2 my-auto">
+            <img src="./static/images/document.png" alt="document" class="img-fluid banner-image mt-0-sm mt-5">
+          </div>
+          <div class="col-lg-6 col-12 order-lg-2 order-1 my-auto px-0">
+            <h2 class="font-weight-bold banner-title lh-text pt-lg">Documentation and Manual</h2>
+            <h5 class="my-4 text-muted lh-text banner-subtitle">Check out our Standard Operating Procedures and tutorials to have a clear understanding of this platform.</h5>
+            <div class="d-flex flex-wrap">
+              <a class="btn btn-lg text-brand b--brand p-3 font-weight-bold doc-button" href="https://docs.google.com/document/d/1OPUSyuqkTjsJiqlidwb8absWwi9lDBK6RLluHFYUHKQ/edit?usp=sharing">SOP Document</a>
+              <a class="btn btn-lg text-white bg-brand p-3 font-weight-bold youtube-button mt-0-sm" href="https://www.youtube.com/channel/UCaFMZdqjR8D0ra4Qpfgp6FA?view_as=subscriber">Video Tutorials</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+<footer class="page-footer font-small teal py-5 bg-brand">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-uppercase font-weight-bold text-white">For General Queries</h5>
+        <p class="text-white">help@ppetrackr.org</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-6 mb-md-0 mb-3">
+        <h5 class="text-uppercase font-weight-bold text-white">For Reporting</h5>
+        <p class="text-white">bug@ppetrackr.org</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% endblock %}

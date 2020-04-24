@@ -1,0 +1,24 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="row my-auto">
+    <section class="pt-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 order-lg-1 order-2 my-auto">
+            <h2 class="font-weight-bold banner-title dn-sm">403: Forbidden Error !</h2>
+            <p class="lead">Oops! It seems like you don't have the permission to access this page.</p>
+            <p class="lead">
+              <a class="btn btn-lg bg-brand rounded text-white font-weight-bold btn-sm-w100" href="{% url 'index_view' %}" role="button">Go to Home Page</a>
+            </p>
+          </div>
+          <div class="col-lg-6 col-12 order-lg-2 order-1 my-auto tl-sm tc">
+            <img src="../../../../static/images/access_denied.png" alt="Forbidden Error" class="img-fluid banner-image  mt-0-sm">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+{% endblock %}

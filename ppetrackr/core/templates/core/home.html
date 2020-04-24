@@ -1,0 +1,128 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+  {% if request.user.organization.is_provider %}
+  <div class="row">
+    <div class="col-lg-12 col-12">
+      <h2 class="text-muted welcome-text">Welcome, {{ request.user.organization }}</h2>
+      <p class="mb-4 text-muted">Username - {{ request.user.username }}</p>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+          <div class="card mb-3 shadow-sm h-100 d-table w-100">
+            <div class="card-body d-table-cell align-middle">
+              <img class="icon img-fluid float-right"
+                src="{% static 'images/medical.png' %}" alt="N95 Mask" />
+              <h5 class="card-title font-weight-bold pt-md-4 pt-0">N95 Masks</h5>
+              <p class="card-text text-muted">Track your facility's N95 masks</p>
+              <a href="{% url 'track_mask_view' %}"
+                class="btn btn-primary update-button text-brand bg-white p-2 px-4 font-weight-bold b--brand">Record</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+          <div class="card mb-3 shadow-sm h-100 d-table w-100">
+            <div class="card-body d-table-cell align-middle">
+              <img class="icon img-fluid float-right"
+                src="{% static 'images/gloves.png' %}" alt="gloves" />
+              <h5 class="card-title font-weight-bold pt-md-4 pt-0">Gloves </h5>
+              <p class="card-text text-muted">Track your facility's gloves</p>
+              <a href="{% url 'track_glove_view' %}"
+                class="btn btn-primary update-button text-brand bg-white p-2 px-4 font-weight-bold b--brand">Record</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+          <div class="card mb-3 shadow-sm h-100 d-table w-100">
+            <div class="card-body d-table-cell align-middle">
+              <img class="icon img-fluid float-right"
+                src="{% static 'images/alcohol-gel.png' %}" alt="sanitiser" />
+              <h5 class="card-title font-weight-bold pt-md-4 pt-0">Alcohol</h5>
+              <p class="card-text text-muted">
+                Track your facility's rubbing alcohol
+              </p>
+              <a href="{% url 'track_alcohol_view' %}"
+                class="btn btn-primary update-button text-brand bg-white p-2 px-4 font-weight-bold b--brand">Record</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+          <div class="card mb-3 shadow-sm h-100 d-table w-100">
+            <div class="card-body d-table-cell align-middle">
+              <img class="icon img-fluid float-right"
+                src="{% static 'images/cotton-swabs.png' %}" alt="Swab" />
+              <h5 class="card-title font-weight-bold pt-md-4 pt-0">Swabs</h5>
+              <p class="card-text text-muted">Track your facility's swabs</p>
+              <a href="{% url 'track_swab_view' %}"
+                class="btn btn-primary update-button text-brand bg-white p-2 px-4 font-weight-bold b--brand">Record</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+          <div class="card mb-3 shadow-sm h-100 d-table w-100">
+            <div class="card-body d-table-cell align-middle">
+              <img class="icon img-fluid float-right"
+                src="{% static 'images/protection.png' %}" alt="Medical Gown" />
+              <h5 class="card-title font-weight-bold pt-md-4 pt-0">Gowns</h5>
+              <p class="card-text text-muted">Track your facility's gowns</p>
+              <a href="{% url 'track_gowns_view' %}"
+                class="btn btn-primary update-button text-brand bg-white p-2 px-4 font-weight-bold b--brand">Record</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+          <div class="card mb-3 shadow-sm h-100 d-table w-100">
+            <div class="card-body d-table-cell align-middle">
+              <img class="icon img-fluid float-right"
+                src="{% static 'images/facemask.png' %}" alt="Face Mask" />
+              <h5 class="card-title font-weight-bold pt-md-4 pt-0">Non-N95 Face Masks
+              </h5>
+              <p class="card-text text-muted">Track your facility's non-N95 face masks
+              </p>
+              <a id="test" href="{% url 'track_face_mask_view' %}"
+                class="btn btn-primary update-button text-brand bg-white p-2 px-4 font-weight-bold b--brand">Record</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="row">
+    <section class="py-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 order-lg-1 order-2 my-auto pt-5 px-lg-0">
+            {% if request.user.organization is None %}
+            <h2 class="font-weight-bold banner-title lh-text">Welcome,
+              {{ request.user.username }}</h2>
+            {% else %}
+            <h2 class="font-weight-bold banner-title lh-text">Welcome,
+              {{ request.user.organization }}</h2>
+            {% endif %}
+            <h5 class="my-4 text-muted lh-text banner-subtitle">Get deep insights about
+              current and projected inventory counts of six critical PPE: N95 Masks,
+              Gloves, Rubbing Alcohol, Swabs, Gowns, and Non-N95 Face Masks.</h5>
+            <div>
+              <a class="btn btn-lg text-white bg-brand p-3 font-weight-bold banner-button"
+                href="{% url 'dashboard_view' %}">View Dashboard</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 order-lg-2 order-1 my-auto">
+            <img src="{% static 'images/dashboard.png' %}" alt="doctors"
+              class="img-fluid banner-image  mt-0-sm mt-5">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

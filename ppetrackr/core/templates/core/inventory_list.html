@@ -1,0 +1,45 @@
+{% extends "core/base.html" %}
+{% load bootstrap_pagination %}
+    
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="font-weight-bold mb-4">Inventory Activity</h2>
+
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>PPEType</th>
+              <th>Quantity</th>
+              <th>Model Num</th>
+              <th>Daily Use</th>
+              <th>Projected Daily Use</th>
+              <th>Projected Run Out</th>
+              <th>Record At</th>
+              <th>Recorded By</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for inventory in inventory_list %}
+            <tr>
+              <td>{{ inventory.ppetype }}</td>
+              <td>{{ inventory.number }}</td>
+              <td>{{ inventory.item_number }}</td>
+              <td>{{ inventory.daily_use }}</td>
+              <td>{{ inventory.projected_daily_use }}</td>
+              <td>{{ inventory.projected_run_out }}</td>
+              <td>{{ inventory.timestamp }}</td>
+              <td>{{ inventory.user }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      {% bootstrap_paginate inventory_list range=5 show_prev_next="false" show_first_last="true" first_label="First" last_label="Last >>"%}
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "core/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Track Inventory {{ ppe_name }}</h2>
+      <form action="" method="POST" accept-charset="utf-8">
+        {% csrf_token %} 
+        {{ formset.management_form|crispy }}
+        {% for form in formset %}
+          <div class="my-form-row spacer">
+            {% crispy form %}
+            <button type="button" class="btn btn-lg btn-danger remove-form-row btn-sm-w100">Remove This Item -</button>
+            <hr />
+          </div>
+        {% endfor %}
+        <button class="btn btn-lg btn-info add-form-row btn-sm-w100">Add More Items +</button>
+        <br></br>
+        <button type="submit" class="btn btn-lg btn-success mb-4 btn-sm-w100">Submit</button>
+      </form>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <div class="card-header">
+          Recently Added {{ ppe_name }}
+        </div>
+        {% if recent_items %}
+        <ul class="list-group list-group-flush">
+          {% for item in recent_items %}
+          <li class="list-group-item">
+            <strong>{{ item.ppetype }}</strong>- Qty: {{ item.number }}
+            <br>
+            <small>Added {{ item.timestamp | timesince }} ago by {{ item.user.get_full_name }}</small>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="pa-3">No items have yet been added for this PPE type.</p>
+        {% endif %}
+        <div class="card-footer">
+          <a href="{% url 'inventory_list_view' %}">View Complete Inventory Activity</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

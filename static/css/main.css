@@ -1,0 +1,101 @@
+section{
+  padding: 6rem 0rem;
+}
+
+.bg-brand {
+  background: #00B0FF;
+}
+
+.bg-brand-light {
+  background : #CDEDFC;
+}
+
+.text-brand {
+  color: #00B0FF;
+}
+
+.b--brand {
+  border: 1px solid #00B0FF;
+}
+
+.banner-title {
+  font-size: 2.25rem;
+}
+
+.banner-subtitle {
+  font-size: 1rem;
+}
+
+.lh-text {
+  line-height: 1.4;
+}
+
+.youtube-button {
+  margin-left : 1rem;
+}
+
+.pt-lg {
+  padding-top: 6rem;
+}
+
+.card-title {
+  font-size: 1.55rem;
+}
+
+.update-button:hover {
+  background: #00B0FF !important;
+  color: #fff !important;
+  border: 1px solid #00B0FF;
+}
+
+.icon {
+  height: auto;
+  width: 50px;
+}
+
+.welcome-text {
+  font-size: 1.85rem;
+ }
+
+.arrow-icon {
+  font-size: 2rem !important;
+}
+
+.underline-none:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+  section {
+    padding: 3rem 0rem;
+  }
+
+  .banner-button, .youtube-button, .doc-button, .update-button, .btn-sm-w100 {
+    width: 100%;
+  }
+
+  .youtube-button {
+    margin: 1rem 0rem 0rem 0rem;
+  }
+
+  .pt-lg {
+    padding-top: 0;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    height: auto;
+    width: 40px;
+  }
+
+  .welcome-text {
+    font-size: 1.75rem;
+   }
+
+  .dn-sm {
+    display: none;
+  }
+}

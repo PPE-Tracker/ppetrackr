@@ -1,0 +1,17 @@
+{% extends 'core/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2 class="font-weight-bold">Register as User</h2>
+      <form method="post">
+        {% csrf_token %}
+        {{ form | crispy }}
+        <button type="submit" class="btn bg-brand text-white font-weight-bold px-3 py-2 rounded mb-4 btn-sm-w100">Sign up</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

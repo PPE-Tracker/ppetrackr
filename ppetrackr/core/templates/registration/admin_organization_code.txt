@@ -1,0 +1,11 @@
+Dear {{ user.username }},
+
+Congratulations! You have now registered a parent organization. Your organization key code is:
+
+{{ user.organization.code }}
+
+This will be used to authenticate users who can operate this tool on behalf of your organization. Please save
+this code to distribute to users in your organization for their account registration.
+
+Sincerely,
+The PPETrackr Team
