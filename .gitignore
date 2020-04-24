@@ -147,6 +147,6 @@ staticfiles
 /tags
 
 # Elastic Beanstalk Files
-#.elasticbeanstalk/*
+.elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
