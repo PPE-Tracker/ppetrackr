@@ -3,7 +3,7 @@
 This is the codebase for the Personal Protective Equipment Tracker being built
 to help address COVID-19. 
 
-If you're a government agency or healthcare provider looking to use ppetrackr.org without deploying your own code, [learn more here.](#learn-more)
+If you're a government agency or healthcare provider looking to use https://www.ppetrackr.org/ without deploying your own code, [learn more here.](#learn-more)
 
 
 
