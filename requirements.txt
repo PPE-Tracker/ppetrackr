@@ -26,7 +26,7 @@ future==0.18.2
 gunicorn==20.0.4
 isort==4.3.21
 itsdangerous==1.1.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
 pathspec==0.7.0
